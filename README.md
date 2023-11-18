@@ -5,3 +5,4 @@ https://github.com/gh0stzk/dotfiles.git
 # Instll Kde
 # Install plymouth
 # install blackarch repositories
+# Install Hack NerdFonts
