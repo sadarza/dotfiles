@@ -1,0 +1,36 @@
+window>.powermenu {
+  margin: .5rem;
+  background-color: #414868;
+}
+
+.powermenu {
+  font-family: "Font Awesome 6 Free Solid";
+  font-size: 1.5rem;
+  padding: .3rem;
+  border-radius: .5rem;
+
+  &.shutdown {
+    color: #F7768E;
+  }
+
+  &.reboot {
+    color: #9ECE6A;
+  }
+
+  &.lock {
+    color: #F0C674;
+  }
+
+  &.exit {
+    color: #BB9AF7;
+  }
+
+  button {
+    background-color: #3B4252;
+    padding: 1.2rem;
+
+  &:hover {
+      background-color: lighten($color: #3B4252, $amount: 4%);
+    }  
+  }
+}
