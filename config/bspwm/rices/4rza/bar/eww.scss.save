@@ -1,0 +1,126 @@
+* {
+  all: unset;
+}
+
+// Variable Color's
+//$background: #0d0f18;
+$background: #414868;
+$foreground: #C0CAF5;
+
+$purple: #BB9AF7;
+$pink: #FF79C6;
+//$black: #151720;
+$black: #3B4252;
+$gray: #A9B1D6;
+$red: #F7768E;
+$green: #9ECE6A;
+$yellow: #F0C674;
+$blue: #7AA2F7;
+$magenta: #c296eb;
+$cyan: #7DCFFF;
+$white: $foreground;
+$orange: #E0AF68;
+$archlogo: #6272A4;
+
+// The bar
+.eww_bar {
+  background-color: $background;
+  padding: 0.3rem;
+  border-radius: 15px;
+}
+
+// Launcher
+.launcher_icon {
+  color: $red;
+  font-family: "Material Design Icons Desktop";
+  font-size: 2.4em;
+  padding: 1rem 0 1rem 0;
+  //background-color: $black;
+  //border-radius:15;
+  //padding: 0.4rem 0 0.5rem 0;
+  //margin: 1rem 0 1rem 0;
+}
+
+// Workspaces
+.works {
+  font-family: "Material Design Icons Desktop";
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  background-color: $black;
+  border-radius: 15px;
+}
+
+.workspace-focused {
+  font-size: 20px;
+  color: $yellow;
+  margin: 0.35rem 0 0.35rem 0;
+}
+
+.workspace-occupied {
+  font-size: 20px;
+  color: $red;
+  margin: 0.35rem 0 0.35rem 0;
+}
+
+.workspace-empty {
+  font-size: 18px;
+  color: $gray;
+  margin: 0.35rem 0 0.35rem 0;
+}
+
+// icons info
+.control {
+  padding: 0.5rem;
+  background-color: $black;
+  border-radius: 15px;
+}
+
+.trayicon {
+  background-repeat: no-repeat;
+  background-size: 25px;
+  min-height: 25px;
+  min-width: 7px;
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.bar-updates-text {
+  font-family: "JetBrainsMono Nerd Font Bold";
+  font-size: 14px;
+  font-weight: Bold;
+  color: #8ea6c4;
+  margin: .4rem 0 .2rem .2rem;
+}
+
+scale trough {
+  all: unset;
+  background-color: $black;
+  border-radius: 15px;
+  min-height: 80px;
+  min-width: 10px;
+  margin: 0.3rem 0 0.3rem 0.1rem;
+}
+
+.volbar trough highlight {
+  background: linear-gradient($red, $blue, $purple);
+  border-radius: 4px;
+}
+
+// Clock
+.time {
+  font-family: Hack Nerd Font;
+  font-weight: bold;
+  font-size: 1.6em;
+  background-color: $black;
+  color: $white;
+  border-radius: 15px;
+  padding: 0.7rem 0 0.5rem 0;
+  margin: 0rem 0 0rem 0;
+}
+
+// Powermenu
+.powermenu {
+  font-family: Material Design Icons Desktop;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+
