@@ -4,5 +4,4 @@ https://github.com/gh0stzk/dotfiles.git
 # Install neofetch
 # Install Kde
 # Install plymouth
-# install blackarch repositories
 # Install Hack NerdFonts
